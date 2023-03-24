@@ -1,17 +1,12 @@
 # Task Management With (Django & Angular)
 
-This project is going to be a mini 
+You are tasked to build a simple task management application that allows users to create, update, delete, and view tasks.
 
 
 # Setup project
 ### Install dependencies
 Install development environment packages and dependencies:
 ```
-pip install -r requirements/requirements-dev.txt
-```
-
-### Install pre-commit git hook
-```
-pre-commit install
+pip install -r requirements.txt
 ```
 

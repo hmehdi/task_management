@@ -1,0 +1,62 @@
+# file extensions
+*$py.class
+*.db
+*.log
+*.mo
+*.pot
+*.py[cod]
+*.pem
+
+#report
+.coverage
+coverage.xml
+test_results.xml
+
+# dot-files
+.cache
+.env*
+.envrc
+.python-version
+.vagrant
+.venv
+.env
+.vscode
+
+# directories
+/static
+__pycache__
+logs
+node_modules
+tmp
+uploads
+venv
+env
+/media
+
+# local settings
+.local.py
+.prod.py
+
+# pycharm
+.idea/*
+
+# MacOS
+.DS_Store
+
+# celery
+celerybeat.pid
+celerybeat-schedule
+# celerybeat files
+*.bak
+*.dat
+*.dir
+*.pid
+
+.tool-versions
+
+keys
+
+# Database stuff
+*.sqlite3
+migrations/
+db.sqlite3

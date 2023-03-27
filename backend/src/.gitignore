@@ -1,0 +1,13 @@
+include
+Lib
+Scripts
+tcl
+__pycache__
+# Database stuff
+*.sqlite3
+db.sqlite3
+
+# Backend stuff
+backend/api/migrations/
+backend/api/__pycache__/
+backend/__pycache__/

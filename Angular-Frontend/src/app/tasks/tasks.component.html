@@ -1,0 +1,21 @@
+<h2>My Tasks</h2>
+
+<div>
+  <label for="new-task">Task Title: </label>
+  <input id="new-task" #taskTitle />
+
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button type="button" class="add-button" (click)="add(taskTitle.value); taskTitle.value=''">
+    Add task
+  </button>
+</div>
+
+<ul class="tasks">
+  <li *ngFor="let task of tasks">
+    <a routerLink="/tasks/{{task.id}}">
+      <span class="badge">{{task.id}}</span> {{task.title}}
+    </a>
+    <button type="button" class="delete" title="delete task"
+      (click)="delete(task)">x</button>
+  </li>
+</ul>

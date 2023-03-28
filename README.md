@@ -1,6 +1,6 @@
 # Task Management Project
 
-This is a web-based task management system built with Django and Angular frameworks. This project allows users to create, edit, and delete task
+This is a web-based task management system built with Django and Angular frameworks. This project allows users to create, edit, delete and view task.
 
 ## Getting Started
 
@@ -39,13 +39,14 @@ pip install -r requirements.txt
 
 Run the server:
 ```
+cd backend
 python manage.py runserver
 ```
 
 Frontend
 
 ```
-cd Angular-Frontend
+cd frontend
 npm install
 
 ```

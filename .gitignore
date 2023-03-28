@@ -128,3 +128,4 @@ keys
 #Angualr
 *.angualr/cache/
 node_modules
+frontend/.angular/*
